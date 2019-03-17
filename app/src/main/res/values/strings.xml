@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GitUsers</string>
+    <string name="msg_error">Something went wrong, please try again after some time.</string>
+</resources>

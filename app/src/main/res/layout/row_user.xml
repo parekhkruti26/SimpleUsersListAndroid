@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+            android:id="@+id/llMain"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:elevation="1dp"
+            android:layout_marginBottom="8dp"
+            android:paddingTop="12dp"
+            android:background="@android:color/white"
+            android:paddingBottom="12dp"
+            android:orientation="horizontal">
+
+        <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivUser"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="8dp"
+                app:srcCompat="@android:drawable/btn_star_big_off"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvUserName"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:fontFamily=""
+                android:ellipsize="end"
+                tools:text="hello world!!"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="8dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                app:fontFamily="@font/roboto_medium"/>
+
+    </LinearLayout>
+</layout>
